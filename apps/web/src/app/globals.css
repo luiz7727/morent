@@ -1,42 +1,61 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@import "tailwindcss";
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+@theme {
+  
+  --color-success-100: #F5FCD2;
+  --color-success-200: #E8FAA6;
+  --color-success-300: #D3F178;
+  --color-success-400: #BCE455;
+  --color-success-500: #9CD323;
+  --color-success-600: #7FB519;
+  --color-success-700: #659711;
+  --color-success-800: #4C7A0B;
+  --color-success-900: #3B6506;
+  
+  
+  --color-error-100: #FFE7D3;
+  --color-error-200: #FFC8A6;
+  --color-error-300: #FFA37A;
+  --color-error-400: #FF7F59;
+  --color-error-500: #FF4423;
+  --color-error-600: #DB2719;
+  --color-error-700: #B71112;
+  --color-error-800: #930B16;
+  --color-error-900: #7A0619;
+  
+  
+  
+  --color-warning-100: #FFF8D7;
+  --color-warning-200: #FFEFB0;
+  --color-warning-300: #FFE488;
+  --color-warning-400: #FFD96B;
+  --color-warning-500: #FFC73A;
+  --color-warning-600: #DBA32A;
+  --color-warning-700: #B7821D;
+  --color-warning-800: #936312;
+  --color-warning-900: #7A4D0B;
+  
+  
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
+  --color-information-100: #DCF3FF;
+  --color-information-200: #BAE5FF;
+  --color-information-300: #98D3FF;
+  --color-information-400: #7EC2FF;
+  --color-information-500: #54A6FF;
+  --color-information-600: #3D81DB;
+  --color-information-700: #2A60B7;
+  --color-information-800: #1A4393;
+  --color-information-900: #102E7A;
+  
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+  --color-secondinary-100: #E0E9F4;
+  --color-secondinary-200: #C3D4E9;
+  --color-secondinary-300: #90A3BF;
+  --color-secondinary-400: #596780;
+  --color-secondinary-500: #1A202C;
+  --color-secondinary-600: #131825;
+  --color-secondinary-700: #0D121F;
+  --color-secondinary-800: #080C19;
+  --color-secondinary-900: #040815;
 }
